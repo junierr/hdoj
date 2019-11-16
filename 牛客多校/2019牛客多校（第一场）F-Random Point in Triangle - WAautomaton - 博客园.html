@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://www.cnblogs.com/WAautomaton/p/11211864.html -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="origin">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <title>2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园</title>
+    <meta property="og:description" content="#include using namespace std; typedef long long ll; struct Point{ ll x, y; Point( ll x=0, ll y=0 ): ">
+    <link type="text/css" rel="stylesheet" href="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/blog-common.css">
+<link id="MainCss" type="text/css" rel="stylesheet" href="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/bundle-CodingLife.css">
+<link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/bundle-CodingLife-mobile.css">
+    <link title="RSS" type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/WAautomaton/rss">
+    <link title="RSD" type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/WAautomaton/rsd.xml">
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/WAautomaton/wlwmanifest.xml">
+    <script src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/amp4ads-host-v0.js.下载"></script><script src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/pubads_impl_rendering_2019072601.js.下载"></script><script async="" src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/analytics.js.下载"></script><script type="text/javascript" src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/encoder.js.下载"></script><script src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/jquery-2.2.0.min.js.下载"></script>
+    <script>var currentBlogId=514646;var currentBlogApp='WAautomaton',cb_enable_mathjax=false;var isLogined=false;</script>
+    <script src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/blog-common.js.下载" type="text/javascript"></script>
+<link rel="preload" href="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/f.txt" as="script"><script type="text/javascript" src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/f.txt"></script><script src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/pubads_impl_2019072601.js.下载" async=""></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html"></head>
+<body>
+<a name="top"></a>
+
+
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a id="lnkBlogLogo" href="https://www.cnblogs.com/WAautomaton/"><img id="blogLogo" src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/logo.gif" alt="返回主页"></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle" href="https://www.cnblogs.com/WAautomaton/">WAautomaton</a></h1>
+<h2></h2>
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">博客园</a></li>
+<li><a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/WAautomaton/">首页</a></li>
+<li><a id="blog_nav_newpost" class="menu" rel="nofollow" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+<li><a id="blog_nav_contact" class="menu" rel="nofollow" href="https://msg.cnblogs.com/send/WAautomaton">联系</a></li>
+<li><a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/WAautomaton/rss">订阅</a>
+<!--<a id="blog_nav_rss_image" class="aHeaderXML" href="https://www.cnblogs.com/WAautomaton/rss"><img src="//www.cnblogs.com/images/xml.gif" alt="订阅" /></a>--></li>
+<li><a id="blog_nav_admin" class="menu" rel="nofollow" href="https://i.cnblogs.com/">管理</a></li>
+</ul>
+		<div class="blogStats">
+			
+			<div id="blog_stats">
+<span id="stats_post_count">随笔 - 28&nbsp; </span>
+<span id="stats_article_count">文章 - 0&nbsp; </span>
+<span id="stats-comment_count">评论 - 5</span>
+</div>
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+        <div id="post_detail">
+<!--done-->
+<div id="topics">
+	<div class="post">
+		<h1 class="postTitle">
+			<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/WAautomaton/p/11211864.html">2019牛客多校（第一场）F-Random Point in Triangle</a>
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			<div id="cnblogs_post_body" class="blogpost-body"><p><img src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/1682883-20190719104156630-547930041.png" alt=""><img src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/1682883-20190719104210437-1900500144.png" alt=""></p>
+<div class="cnblogs_code"><div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/copycode.gif" alt="复制代码"></a></span></div>
+<pre>#include &lt;bits/stdc++.h&gt;
+<span style="color: #0000ff;">using</span> <span style="color: #0000ff;">namespace</span><span style="color: #000000;"> std;
+
+typedef </span><span style="color: #0000ff;">long</span> <span style="color: #0000ff;">long</span><span style="color: #000000;"> ll;
+</span><span style="color: #0000ff;">struct</span><span style="color: #000000;"> Point{
+    ll x, y;
+    Point( ll x</span>=<span style="color: #800080;">0</span>, ll y=<span style="color: #800080;">0</span><span style="color: #000000;"> ): x(x), y(y){}
+};
+typedef Point Vector;
+Point p[</span><span style="color: #800080;">5</span><span style="color: #000000;">];
+Vector </span><span style="color: #0000ff;">operator</span> -(<span style="color: #0000ff;">const</span> Vector a, <span style="color: #0000ff;">const</span><span style="color: #000000;"> Vector b ){
+    </span><span style="color: #0000ff;">return</span> Vector( a.x-b.x, a.y-<span style="color: #000000;">b.y );
+}
+
+ll Cross( Vector a, Vector b ){
+    </span><span style="color: #0000ff;">return</span> a.x*b.y - a.y*<span style="color: #000000;">b.x;
+}
+
+</span><span style="color: #0000ff;">int</span><span style="color: #000000;"> main(){
+    ios::sync_with_stdio(</span><span style="color: #800080;">0</span><span style="color: #000000;">);
+    cin.tie(</span><span style="color: #800080;">0</span><span style="color: #000000;">);
+    cout.tie(</span><span style="color: #800080;">0</span><span style="color: #000000;">);
+    ll x1, y1, x2, y2, x3, y3;
+    </span><span style="color: #0000ff;">while</span>( cin &gt;&gt; x1 &gt;&gt;<span style="color: #000000;"> y1 ){
+        cin </span>&gt;&gt; x2 &gt;&gt; y2 &gt;&gt; x3 &gt;&gt;<span style="color: #000000;"> y3;
+        p[</span><span style="color: #800080;">1</span>] =<span style="color: #000000;"> Point(x1, y1);
+        p[</span><span style="color: #800080;">2</span>] =<span style="color: #000000;"> Point(x2, y2);
+        p[</span><span style="color: #800080;">3</span>] =<span style="color: #000000;"> Point(x3, y3);
+        ll ans </span>= Cross( p[<span style="color: #800080;">2</span>]-p[<span style="color: #800080;">1</span>], p[<span style="color: #800080;">3</span>]-p[<span style="color: #800080;">1</span>] )*<span style="color: #800080;">11</span><span style="color: #000000;">;
+        </span><span style="color: #0000ff;">if</span>( ans&lt;<span style="color: #800080;">0</span> ) ans = -<span style="color: #000000;">ans;
+        cout </span>&lt;&lt; ans &lt;&lt;<span style="color: #000000;">endl;
+    }
+
+    </span><span style="color: #0000ff;">return</span> <span style="color: #800080;">0</span><span style="color: #000000;">;
+}</span></pre>
+<div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/copycode.gif" alt="复制代码"></a></span></div></div>
+<p>&nbsp;</p></div><div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+<div id="BlogPostCategory"></div>
+<div id="EntryTag"></div>
+<div id="blog_post_info"><div id="green_channel">
+        <a href="javascript:void(0);" id="green_channel_digg" onclick="DiggIt(11211864,cb_blogId,1);green_channel_success(this,&#39;谢谢推荐！&#39;);">好文要顶</a>
+            <a id="green_channel_follow" onclick="follow(&#39;b9e164d6-4044-4ca0-d6d2-08d6d2f23de8&#39;);" href="javascript:void(0);">关注我</a>
+    <a id="green_channel_favorite" onclick="AddToWz(cb_entryId);return false;" href="javascript:void(0);">收藏该文</a>
+    <a id="green_channel_weibo" href="javascript:void(0);" title="分享至新浪微博" onclick="ShareToTsina()"><img src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/icon_weibo_24.png" alt=""></a>
+    <a id="green_channel_wechat" href="javascript:void(0);" title="分享至微信" onclick="shareOnWechat()"><img src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/wechat.png" alt=""></a>
+</div>
+<div id="author_profile">
+    <div id="author_profile_info" class="author_profile_info">
+            <a href="https://home.cnblogs.com/u/WAautomaton/" target="_blank"><img src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/20190526110922.png" class="author_avatar" alt=""></a>
+        <div id="author_profile_detail" class="author_profile_info">
+            <a href="https://home.cnblogs.com/u/WAautomaton/">WAautomaton</a><br>
+            <a href="https://home.cnblogs.com/u/WAautomaton/followees">关注 - 3</a><br>
+            <a href="https://home.cnblogs.com/u/WAautomaton/followers">粉丝 - 6</a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="author_profile_honor"></div>
+    <div id="author_profile_follow">
+                <a href="javascript:void(0);" onclick="follow(&#39;b9e164d6-4044-4ca0-d6d2-08d6d2f23de8&#39;);return false;">+加关注</a>
+    </div>
+</div>
+<div id="div_digg">
+    <div class="diggit" onclick="votePost(11211864,&#39;Digg&#39;)">
+        <span class="diggnum" id="digg_count">0</span>
+    </div>
+    <div class="buryit" onclick="votePost(11211864,&#39;Bury&#39;)">
+        <span class="burynum" id="bury_count">0</span>
+    </div>
+    <div class="clear"></div>
+    <div class="diggword" id="digg_tips">
+    </div>
+</div>
+<script type="text/javascript">
+    currentDiggType = 0;
+</script></div>
+<div class="clear"></div>
+<div id="post_next_prev"><a href="https://www.cnblogs.com/WAautomaton/p/11181217.html" class="p_n_p_prefix">« </a> 上一篇：<a href="https://www.cnblogs.com/WAautomaton/p/11181217.html" title="发布于2019-07-13 16:48">洛谷P2680 运输计划(倍增LCA + 树上差分 + 二分答案)</a><br><a href="https://www.cnblogs.com/WAautomaton/p/11230494.html" class="p_n_p_prefix">» </a> 下一篇：<a href="https://www.cnblogs.com/WAautomaton/p/11230494.html" title="发布于2019-07-23 11:02">洛谷P2486 [SDOI2011]染色（树链剖分+线段树判断边界）</a><br></div>
+</div>
+
+
+		</div>
+		<div class="postDesc">posted @ <span id="post-date">2019-07-19 10:44</span> <a href="https://www.cnblogs.com/WAautomaton/">WAautomaton</a> 阅读(<span id="post_view_count">778</span>) 评论(<span id="post_comment_count">5</span>)  <a href="https://i.cnblogs.com/EditPosts.aspx?postid=11211864" rel="nofollow">编辑</a> <a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#" onclick="AddToWz(11211864);return false;">收藏</a></div>
+	</div>
+	<script type="text/javascript">var allowComments=true,cb_blogId=514646,cb_entryId=11211864,cb_blogApp=currentBlogApp,cb_blogUserGuid='b9e164d6-4044-4ca0-d6d2-08d6d2f23de8',cb_entryCreatedDate='2019/7/19 10:44:00';loadViewCount(cb_entryId);var cb_postType=1;var isMarkdown=false;</script>
+	
+</div><!--end: topics 文章、评论容器-->
+</div><a name="!comments"></a><div id="blog-comments-placeholder"><div id="comments_pager_top"></div>
+<br>
+<div class="feedback_area_title">评论列表</div>
+<div class="feedbackNoItems"></div>	
+
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4304152" class="layer">#1楼</a><a name="4304152" id="comment_anchor_4304152"></a>  <span class="comment_date">2019-07-19 15:15</span> <a id="a_comment_author_4304152" href="http://home.cnblogs.com/u/1459818/" target="_blank">碳的还原性</a> <a href="http://msg.cnblogs.com/send/%E7%A2%B3%E7%9A%84%E8%BF%98%E5%8E%9F%E6%80%A7" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_4304152" class="blog_comment_body">博主，面积期望为1/3三角形ADF是怎么得出的呀？</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(4304152,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(4304152,&#39;Bury&#39;,this)">反对(0)</a></div>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4304335" class="layer">#2楼</a><a name="4304335" id="comment_anchor_4304335"></a>  <span class="comment_date">2019-07-19 17:49</span> <a id="a_comment_author_4304335" href="http://home.cnblogs.com/u/1678386/" target="_blank">冀州牧人</a> <a href="http://msg.cnblogs.com/send/%E5%86%80%E5%B7%9E%E7%89%A7%E4%BA%BA" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_4304335" class="blog_comment_body">同楼上问。能积分积出来么。均匀的直观上是那样然而怎么证明任意的成立。。</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(4304335,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(4304335,&#39;Bury&#39;,this)">反对(0)</a></div>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4304429" class="layer">#3楼</a><a name="4304429" id="comment_anchor_4304429"></a>  <span class="comment_date">2019-07-19 21:38</span> <a id="a_comment_author_4304429" href="http://home.cnblogs.com/u/1678386/" target="_blank">冀州牧人</a> <a href="http://msg.cnblogs.com/send/%E5%86%80%E5%B7%9E%E7%89%A7%E4%BA%BA" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_4304429" class="blog_comment_body"><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4304152" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,4304152);">@</a>
+碳的还原性<br>我会了。。用条件概率然后积分。。<br>就是你用点在那个横条的概率*点在那个横条时的面积 求和就是期望</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(4304429,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(4304429,&#39;Bury&#39;,this)">反对(0)</a></div>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4305173" class="layer">#4楼</a><a name="4305173" id="comment_anchor_4305173"></a>[<span class="louzhu">楼主</span>]  <span class="comment_date">2019-07-21 11:36</span> <a id="a_comment_author_4305173" href="https://www.cnblogs.com/WAautomaton/" target="_blank">WAautomaton</a> <a href="http://msg.cnblogs.com/send/WAautomaton" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_4305173" class="blog_comment_body"><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4304152" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,4304152);">@</a>
+碳的还原性<br>这我确实不太会证明，也是直观感觉，胡了一发,hhhhh</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(4305173,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(4305173,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_4305173_avatar" style="display:none;">http://pic.cnblogs.com/face/1682883/20190526110922.png</span>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4305175" class="layer">#5楼</a><a name="4305175" id="comment_anchor_4305175"></a>[<span class="louzhu">楼主</span>]<span id="comment-maxId" style="display:none;">4305175</span><span id="comment-maxDate" style="display:none;">2019/7/21 11:36:59</span>  <span class="comment_date">2019-07-21 11:36</span> <a id="a_comment_author_4305175" href="https://www.cnblogs.com/WAautomaton/" target="_blank">WAautomaton</a> <a href="http://msg.cnblogs.com/send/WAautomaton" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_4305175" class="blog_comment_body"><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4304335" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,4304335);">@</a>
+冀州牧人<br>我这也不太会证明，直观感觉上是这样......</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(4305175,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(4305175,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_4305175_avatar" style="display:none;">http://pic.cnblogs.com/face/1682883/20190526110922.png</span>
+			</div>
+		</div>
+	<div id="comments_pager_bottom"></div></div><script type="text/javascript">var commentManager = new blogCommentManager();commentManager.renderComments(0);</script>
+<div id="comment_form" class="commentform">
+<a name="commentform"></a>
+<div id="divCommentShow"></div>
+<div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#" onclick="return RefreshPage();">刷新页面</a><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#top">返回顶部</a></div>
+<div id="comment_form_container"><div class="login_tips">注册用户登录后才能发表评论，请 <a rel="nofollow" href="javascript:void(0);" class="underline" onclick="return login(&#39;commentform&#39;);">登录</a> 或 <a rel="nofollow" href="javascript:void(0);" class="underline" onclick="return register();">注册</a>，<a href="http://www.cnblogs.com/">访问</a>网站首页。</div></div>
+<div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+<div id="ad_t2"><a href="http://www.ucancode.com/index.htm" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;T2-工控&#39;)">【推荐】超50万C++/C#源码: 大型实时仿真组态图形源码</a><br><a href="https://www.grapecity.com.cn/developer/spreadjs?utm_source=cnblogs&amp;utm_medium=blogpage&amp;utm_term=bottom&amp;utm_content=SpreadJS&amp;utm_campaign=community" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;T2-SpreadJS&#39;)">【前端】SpreadJS表格控件，可嵌入系统开发的在线Excel</a><br><a href="https://q.cnblogs.com/" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;T2-博问&#39;)">【推荐】程序员问答平台，解决您开发中遇到的技术难题</a><br></div>
+<div id="opt_under_post"></div>
+<script async="async" src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/gpt.js.下载"></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+  googletag.cmd.push(function() {
+        googletag.defineSlot('/1090369/C1', [300, 250], 'div-gpt-ad-1546353474406-0').addService(googletag.pubads());
+        googletag.defineSlot('/1090369/C2', [468, 60], 'div-gpt-ad-1539008685004-0').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+  });
+</script>
+<div id="cnblogs_c1" class="c_ad_block">
+    <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;" data-google-query-id="CML1wIiH1OMCFcUxKgod3OsOPg"><div id="google_ads_iframe_/1090369/C1_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1090369/C1_0" title="3rd party ad content" name="google_ads_iframe_/1090369/C1_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" data-google-container-id="1" data-load-complete="true" src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/saved_resource.html"></iframe></div></div>
+</div>
+<div id="under_post_news"><div class="recomm-block"><b>相关博文：</b><br>·  <a href="https://www.cnblogs.com/Yokel062/p/11221668.html" target="_blank" onclick="clickRecomItmem(11221668)">2019牛客多校第一场</a><br>·  <a href="https://www.cnblogs.com/wmj6/p/11216324.html" target="_blank" onclick="clickRecomItmem(11216324)">2019牛客暑期多校训练营（第一场）IPointsDivision(dp+线段树优化)</a><br>·  <a href="https://www.cnblogs.com/songorz/p/9386774.html" target="_blank" onclick="clickRecomItmem(9386774)">CodeForces1006F-Xor-Paths</a><br>·  <a href="https://www.cnblogs.com/moranzju/p/11158529.html" target="_blank" onclick="clickRecomItmem(11158529)">1029Median(25分)</a><br>·  <a href="https://www.cnblogs.com/onionQAQ/p/11215180.html" target="_blank" onclick="clickRecomItmem(11215180)">2019牛客暑期多校训练营（第一场）-EABBA</a><br></div></div>
+<div id="cnblogs_c2" class="c_ad_block">
+    <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;" data-google-query-id="CLjrv4iH1OMCFcUxKgod3OsOPg"><div id="google_ads_iframe_/1090369/C2_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1090369/C2_0" title="3rd party ad content" name="google_ads_iframe_/1090369/C2_0" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" data-google-container-id="2" data-load-complete="true" src="./2019牛客多校（第一场）F-Random Point in Triangle - WAautomaton - 博客园_files/saved_resource(1).html"></iframe></div></div>
+</div>
+<div id="under_post_kb"><div class="itnews c_ad_block"><b>最新新闻</b>：<br> ·  <a href="https://news.cnblogs.com/n/628829/" target="_blank">60秒不够用 快手抖音部分用户可发超10分钟视频</a><br> ·  <a href="https://news.cnblogs.com/n/628828/" target="_blank">Python之父考虑重构Python解释器</a><br> ·  <a href="https://news.cnblogs.com/n/628826/" target="_blank">土耳其院士：脑机接口应用尚早 科学过度商业化易出事</a><br> ·  <a href="https://news.cnblogs.com/n/628825/" target="_blank">华为：将采用更多麒麟处理器，降低对高通依赖</a><br> ·  <a href="https://news.cnblogs.com/n/628824/" target="_blank">美国总统拒绝苹果请求：新款Mac Pro进口关税不减</a><br>» <a href="http://news.cnblogs.com/" title="IT新闻" target="_blank">更多新闻...</a></div></div>
+<div id="HistoryToday" class="c_ad_block"></div>
+<script type="text/javascript">
+ if(enablePostBottom()) {
+    codeHighlight();
+    fixPostBody();
+    setTimeout(function () { incrementViewCount(cb_entryId); }, 50);
+    deliverT2();
+    deliverC1();
+    deliverC2();    
+    loadNewsAndKb();
+    loadBlogSignature();
+    LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+    GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+    loadOptUnderPost();
+    GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);  
+}
+</script>
+</div>
+
+    
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<!--done-->
+<div class="newsItem">
+<h3 class="catListTitle">公告</h3>
+	<div id="blog-news"><div id="profile_block">昵称：<a href="https://home.cnblogs.com/u/WAautomaton/">WAautomaton</a><br>园龄：<a href="https://home.cnblogs.com/u/WAautomaton/" title="入园时间：2019-05-08">2个月</a><br>粉丝：<a href="https://home.cnblogs.com/u/WAautomaton/followers/">6</a><br>关注：<a href="https://home.cnblogs.com/u/WAautomaton/followees/">3</a><div id="p_b_follow"><a href="javascript:void(0);" onclick="follow(&#39;b9e164d6-4044-4ca0-d6d2-08d6d2f23de8&#39;)">+加关注</a></div><script>getFollowStatus('b9e164d6-4044-4ca0-d6d2-08d6d2f23de8')</script></div></div><script type="text/javascript">loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style=""><table id="blogCalendar" class="Cal" cellspacing="0" cellpadding="0" title="Calendar">
+	<tbody><tr><td colspan="7"><table class="CalTitle" cellspacing="0">
+		<tbody><tr><td class="CalNextPrev"><a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2019/06/01&#39;);return false;">&lt;</a></td><td align="center">2019年7月</td><td class="CalNextPrev" align="right"><a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2019/08/01&#39;);return false;">&gt;</a></td></tr>
+	</tbody></table></td></tr><tr><th class="CalDayHeader" align="center" abbr="日" scope="col">日</th><th class="CalDayHeader" align="center" abbr="一" scope="col">一</th><th class="CalDayHeader" align="center" abbr="二" scope="col">二</th><th class="CalDayHeader" align="center" abbr="三" scope="col">三</th><th class="CalDayHeader" align="center" abbr="四" scope="col">四</th><th class="CalDayHeader" align="center" abbr="五" scope="col">五</th><th class="CalDayHeader" align="center" abbr="六" scope="col">六</th></tr><tr><td class="CalOtherMonthDay" align="center">30</td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><td class="CalWeekendDay" align="center"><a href="https://www.cnblogs.com/WAautomaton/archive/2019/07/06.html"><u>6</u></a></td></tr><tr><td class="CalWeekendDay" align="center">7</td><td align="center">8</td><td align="center">9</td><td align="center"><a href="https://www.cnblogs.com/WAautomaton/archive/2019/07/10.html"><u>10</u></a></td><td align="center">11</td><td align="center"><a href="https://www.cnblogs.com/WAautomaton/archive/2019/07/12.html"><u>12</u></a></td><td class="CalWeekendDay" align="center"><a href="https://www.cnblogs.com/WAautomaton/archive/2019/07/13.html"><u>13</u></a></td></tr><tr><td class="CalWeekendDay" align="center">14</td><td align="center">15</td><td align="center">16</td><td align="center">17</td><td align="center">18</td><td align="center"><a href="https://www.cnblogs.com/WAautomaton/archive/2019/07/19.html"><u>19</u></a></td><td class="CalWeekendDay" align="center">20</td></tr><tr><td class="CalWeekendDay" align="center">21</td><td align="center">22</td><td align="center"><a href="https://www.cnblogs.com/WAautomaton/archive/2019/07/23.html"><u>23</u></a></td><td align="center">24</td><td align="center">25</td><td align="center">26</td><td class="CalTodayDay" align="center">27</td></tr><tr><td class="CalWeekendDay" align="center">28</td><td align="center">29</td><td align="center">30</td><td align="center">31</td><td class="CalOtherMonthDay" align="center">1</td><td class="CalOtherMonthDay" align="center">2</td><td class="CalOtherMonthDay" align="center">3</td></tr><tr><td class="CalOtherMonthDay" align="center">4</td><td class="CalOtherMonthDay" align="center">5</td><td class="CalOtherMonthDay" align="center">6</td><td class="CalOtherMonthDay" align="center">7</td><td class="CalOtherMonthDay" align="center">8</td><td class="CalOtherMonthDay" align="center">9</td><td class="CalOtherMonthDay" align="center">10</td></tr>
+</tbody></table></div><script type="text/javascript">loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"><div id="sidebar_search" class="sidebar-block">
+<div id="sidebar_search" class="mySearch">
+<h3 class="catListTitle">搜索</h3>
+<div id="sidebar_search_box">
+<div id="widget_my_zzk" class="div_my_zzk"><input type="text" id="q" onkeydown="return zzk_go_enter(event);" class="input_my_zzk">&nbsp;<input onclick="zzk_go()" type="button" value="找找看" id="btnZzk" class="btn_my_zzk"></div>
+<div id="widget_my_google" class="div_my_zzk"><input type="text" name="google_q" id="google_q" onkeydown="return google_go_enter(event)" class="input_my_zzk">&nbsp;<input onclick="google_go()" type="button" value="谷歌搜索" class="btn_my_zzk"></div>
+</div>
+</div>
+
+</div><div id="sidebar_shortcut" class="sidebar-block">
+<div class="catListLink">
+<h3 class="catListTitle">常用链接</h3>
+<ul>
+<li><a href="https://www.cnblogs.com/WAautomaton/p/" title="我的博客的随笔列表">我的随笔</a></li><li><a href="https://www.cnblogs.com/WAautomaton/MyComments.html" title="我发表过的评论列表">我的评论</a></li><li><a href="https://www.cnblogs.com/WAautomaton/OtherPosts.html" title="我评论过的随笔列表">我的参与</a></li><li><a href="https://www.cnblogs.com/WAautomaton/RecentComments.html" title="我的博客的评论列表">最新评论</a></li><li><a href="https://www.cnblogs.com/WAautomaton/tag/" title="我的博客的标签列表">我的标签</a></li>
+</ul>
+<div id="itemListLin_con" style="display:none;">
+<ul>
+
+</ul>
+</div>
+</div></div><div id="sidebar_toptags" class="sidebar-block"></div><div id="sidebar_categories">
+<div id="sidebar_postcategory" class="catListPostCategory sidebar-block">
+<h3 class="catListTitle">随笔分类</h3>
+
+<ul>
+
+<li><a id="CatList_LinkList_0_Link_0" href="https://www.cnblogs.com/WAautomaton/category/1461420.html">codeforces</a> </li>
+
+<li><a id="CatList_LinkList_0_Link_1" href="https://www.cnblogs.com/WAautomaton/category/1499105.html">DP</a> </li>
+
+<li><a id="CatList_LinkList_0_Link_2" href="https://www.cnblogs.com/WAautomaton/category/1464612.html">数据结构(3)</a> </li>
+
+<li><a id="CatList_LinkList_0_Link_3" href="https://www.cnblogs.com/WAautomaton/category/1500865.html">搜索(1)</a> </li>
+
+<li><a id="CatList_LinkList_0_Link_4" href="https://www.cnblogs.com/WAautomaton/category/1461679.html">图论(23)</a> </li>
+
+<li><a id="CatList_LinkList_0_Link_5" href="https://www.cnblogs.com/WAautomaton/category/1462004.html">字符串(2)</a> </li>
+
+</ul>
+
+</div>
+
+<div id="sidebar_postarchive" class="catListPostArchive sidebar-block">
+<h3 class="catListTitle">随笔档案</h3>
+
+<ul>
+
+<li><a id="CatList_LinkList_1_Link_0" href="https://www.cnblogs.com/WAautomaton/archive/2019/07.html">2019年7月 (7)</a> </li>
+
+<li><a id="CatList_LinkList_1_Link_1" href="https://www.cnblogs.com/WAautomaton/archive/2019/06.html">2019年6月 (6)</a> </li>
+
+<li><a id="CatList_LinkList_1_Link_2" href="https://www.cnblogs.com/WAautomaton/archive/2019/05.html">2019年5月 (15)</a> </li>
+
+</ul>
+
+</div>
+
+</div><div id="sidebar_recentcomments" class="sidebar-block"><div id="recent_comments_wrap">
+<div class="catListComment">
+<h3 class="catListTitle">最新评论</h3>
+
+	<div id="RecentCommentsBlock"><ul>
+        <li class="recent_comment_title"><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4305175">1. Re:2019牛客多校（第一场）F-Random Point in Triangle</a></li>
+        <li class="recent_comment_body">@冀州牧人我这也不太会证明，直观感觉上是这样.........</li>
+        <li class="recent_comment_author">--WAautomaton</li>
+        <li class="recent_comment_title"><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4305173">2. Re:2019牛客多校（第一场）F-Random Point in Triangle</a></li>
+        <li class="recent_comment_body">@碳的还原性这我确实不太会证明，也是直观感觉，胡了一发,hhhhh...</li>
+        <li class="recent_comment_author">--WAautomaton</li>
+        <li class="recent_comment_title"><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4304429">3. Re:2019牛客多校（第一场）F-Random Point in Triangle</a></li>
+        <li class="recent_comment_body">@碳的还原性我会了。。用条件概率然后积分。。就是你用点在那个横条的概率*点在那个横条时的面积 求和就是期望...</li>
+        <li class="recent_comment_author">--冀州牧人</li>
+        <li class="recent_comment_title"><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4304335">4. Re:2019牛客多校（第一场）F-Random Point in Triangle</a></li>
+        <li class="recent_comment_body">同楼上问。能积分积出来么。均匀的直观上是那样然而怎么证明任意的成立。。</li>
+        <li class="recent_comment_author">--冀州牧人</li>
+        <li class="recent_comment_title"><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html#4304152">5. Re:2019牛客多校（第一场）F-Random Point in Triangle</a></li>
+        <li class="recent_comment_body">博主，面积期望为1/3三角形ADF是怎么得出的呀？</li>
+        <li class="recent_comment_author">--碳的还原性</li>
+</ul>
+</div>
+</div>
+</div></div><div id="sidebar_topviewedposts" class="sidebar-block"><div id="topview_posts_wrap">
+<div class="catListView">
+<h3 class="catListTitle">阅读排行榜</h3>
+	<div id="TopViewPostsBlock"><ul><li><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html">1. 2019牛客多校（第一场）F-Random Point in Triangle(778)</a></li><li><a href="https://www.cnblogs.com/WAautomaton/p/10909455.html">2. 2019安徽省程序设计竞赛 I.你的名字(序列自动机)(651)</a></li><li><a href="https://www.cnblogs.com/WAautomaton/p/10912206.html">3. 2019安徽省程序设计竞赛 D.自驾游(最短路)(428)</a></li><li><a href="https://www.cnblogs.com/WAautomaton/p/10947317.html">4. poj1502 MPI Maelstrom(单源最短路)(161)</a></li><li><a href="https://www.cnblogs.com/WAautomaton/p/10936579.html">5. poj1860 Currency Exchange(spfa判断是否存在正环)(150)</a></li></ul></div>
+</div>
+</div></div><div id="sidebar_topcommentedposts" class="sidebar-block"><div id="topfeedback_posts_wrap">
+<div class="catListFeedback">
+<h3 class="catListTitle">评论排行榜</h3>
+	<div id="TopFeedbackPostsBlock"><ul><li><a href="https://www.cnblogs.com/WAautomaton/p/11211864.html">1. 2019牛客多校（第一场）F-Random Point in Triangle(5)</a></li></ul></div>
+</div>
+</div></div><div id="sidebar_topdiggedposts" class="sidebar-block"><div id="topdigg_posts_wrap" style="display: none;">
+<div class="catListView">
+<h3 class="catListTitle">推荐排行榜</h3>
+<div id="TopDiggPostsBlock"></div>
+</div></div></div></div><script type="text/javascript">loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		
+<!--done-->
+Copyright ©2019 WAautomaton
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+
+</body></html>
